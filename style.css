@@ -129,20 +129,21 @@ footer {
 
 
 #contact {
-  padding: 40px 20px;
   background-color: #161B22;
   color: #E6EDF3;
+  padding: 60px 20px;
 }
 
-form {
+#contact form {
   max-width: 600px;
-  margin: auto;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-input, textarea {
+#contact input,
+#contact textarea {
   padding: 12px;
   border-radius: 8px;
   border: 1px solid #444;
@@ -151,7 +152,7 @@ input, textarea {
   font-size: 16px;
 }
 
-button {
+#contact button {
   padding: 12px;
   background-color: #C778DD;
   color: white;
@@ -161,6 +162,6 @@ button {
   transition: background 0.3s ease;
 }
 
-button:hover {
+#contact button:hover {
   background-color: #A25CC5;
 }
