@@ -119,10 +119,48 @@ body {
 }
 
 footer {
-    background: #1e2d39;
+    background: #0D1117;
 }
 
 .github-link{
     text-decoration: none;
     color: #C778DD;
+}
+
+
+#contact {
+  padding: 40px 20px;
+  background-color: #161B22;
+  color: #E6EDF3;
+}
+
+form {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+input, textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background: #0D1117;
+  color: white;
+  font-size: 16px;
+}
+
+button {
+  padding: 12px;
+  background-color: #C778DD;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #A25CC5;
 }
