@@ -3,9 +3,9 @@ html {
 }
 
 body {
-    background-color: #151f28;
-    color: #FFFFFF;
-    font-family: "Playfair Display", sans-serif;
+    background-color: #0D1117;
+  color: #E6EDF3;
+    font-family: 'Poppins', sans-serif;
     
 }
 
@@ -22,7 +22,7 @@ body {
     position: relative;
     display: inline-block;
     text-decoration: none;
-    color: #FFFFFF;
+    color: #C778DD;
 }
 
 .navbar-nav a::after {
@@ -115,8 +115,14 @@ body {
 
 .social-url a{
     text-decoration: none;
+    color: #C778DD;
 }
 
 footer {
     background: #1e2d39;
+}
+
+.github-link{
+    text-decoration: none;
+    color: #C778DD;
 }
